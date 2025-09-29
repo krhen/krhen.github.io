@@ -1,5 +1,5 @@
 main {
-	background-color: dimgrey;
+	background-image: linear-gradient(to right, grey, purple);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -9,9 +9,11 @@ main {
 h1 {
 	text-align: center;
 	font-size: 5rem;
+	color: whitesmoke;
 }
 
 p {
 	font-size: 3rem;
 	text-align: center;
+	color: whitesmoke;
 }

@@ -6,14 +6,14 @@ html {
 nav {
 	background-color: black;
 	border-color: black;
-	padding: 1vh 1vw 1vh 0rem;
+	padding: 1vh 1vw 1vh 0vw;
 }
 
 nav  a {
 	color: white;
 	text-decoration: none;
 	text-align: center;
-	padding: 1vh 1vw;
+	padding: 1rem 1rem;
 }
 
 
@@ -32,4 +32,8 @@ body {
 
 main {
 	height: 99vh;
+}
+
+h1, h2, p {
+	font-family: Sans-Serif;
 }
