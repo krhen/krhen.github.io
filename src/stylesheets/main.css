@@ -1,39 +1,36 @@
-html {
-	width: 100vw;
-	height: 100vh;
-}
-
-nav {
-	background-color: black;
-	border-color: black;
-	padding: 1vh 1vw 1vh 0vw;
-}
-
-nav  a {
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	padding: 1rem 1rem;
-}
-
-
-nav:hover a:hover {
-	background-color: darkorange;
-}
-
-nav: a:active {
-	background-color: grey;
-}
-
-
 body {
-	margin: 0px;
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-	height: 99vh;
+    flex-grow: 1;
 }
 
-h1, h2, p {
-	font-family: Sans-Serif;
+
+nav {
+    display: flex; 
+    background-color: black; 
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
+}
+
+
+nav a:hover, nav a:focus { 
+    background-color: darkorange;
+    outline: none;
+}
+
+nav a:active {
+    background-color: grey;
 }

@@ -1,9 +1,11 @@
 main {
-	background-image: linear-gradient(to right, grey, purple);
+	background-image: url('../img/background.jpg');
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 h1 {
