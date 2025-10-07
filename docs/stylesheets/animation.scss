@@ -1,0 +1,21 @@
+.square {
+    width: 4rem;
+    height: 4rem;
+    background-color: black;
+    animation-name: wave;
+    animation-iteration-count: infinite;
+    animation-duration: 1.1s;
+}
+
+@for $i from 1 through 10 {
+  .square:nth-child(#{$i}) {
+    animation-delay: $i * .1s
+  }
+}
+
+@keyframes wave {
+    0% {transform: translate(0rem, 0); transition-timing-function: linear; background-color: black;}
+   50%  {transform: translate(7rem, 0); transition-timing-function: linear; background-color: orange;}
+   100% {transform: translate(0, 0); transition-timing-function: linear; background-color: black}
+}
+
