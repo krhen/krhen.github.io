@@ -27,7 +27,7 @@ nav a {
 
 
 nav a:hover, nav a:focus { 
-    background-color: darkorange;
+    background-color: #C76E00;
     outline: none;
 }
 
