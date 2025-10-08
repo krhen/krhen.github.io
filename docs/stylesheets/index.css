@@ -1,5 +1,6 @@
 main {
 	background-image: url('../img/background.jpg');
+    background-position: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -15,7 +16,10 @@ h1 {
 }
 
 h2 {
+    text-align: center;
 	font-size: 3rem;
-	text-align: center;
     color: blue
 }
+
+
+
